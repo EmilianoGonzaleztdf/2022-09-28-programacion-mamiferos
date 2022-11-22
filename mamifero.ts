@@ -2,7 +2,6 @@ export class Mamifero {
     protected nombre: string;
     protected especie: string;
     protected peso: number;
-    protected alimento: string;
 
     constructor(pNombre: string, pEspecie: string, pPeso: number) {
         this.nombre = pNombre;
